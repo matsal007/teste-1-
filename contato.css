@@ -1,0 +1,125 @@
+@keyframes move {
+   
+}
+
+
+.main{
+  color: #ffffff;
+}
+
+.container{
+  width: 95%;
+}
+
+form{
+  margin: 40px auto;
+}
+
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px; 
+}
+
+.input-padrão {
+  display: block;
+  margin: 0 10% 20px 0%;
+  padding: 10px 25px;
+  font-size: 20px;
+  width: 86%;
+}
+
+.atendimento{
+  padding: 20px;
+  font-size:20px;
+  border: 3px solid #eee;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.checkbox{
+  margin: 20px 0;
+}
+
+.submit{
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+  background: darkorange;
+  border: 3px solid #eee;
+  border-radius:10px;
+  font-weight: bold;
+  color: #ffffff;
+  transition: 0.2s all;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 769px){
+  .main{
+    color: #ffffff;
+  }
+  
+  form{
+    margin: 40px auto;
+  }
+  
+  form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px; 
+  }
+  
+  .input-padrão {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    font-size: 20px;
+    width: 50%;
+  }
+  
+  .atendimento{
+    padding: 20px;
+    font-size:20px;
+    border: 3px solid #eee;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  
+  .checkbox{
+    margin: 20px 0;
+  }
+  
+  .submit{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    background: orange;
+    border: 3px solid #eee;
+    border-radius:10px;
+    font-weight: bold;
+    color: #ffffff;
+    transition: 0.2s all;
+    cursor: pointer;
+  }
+  
+  .submit:hover{
+    animation: 1s move;
+  }
+  
+  table{
+    margin: 20px 95px;
+  }
+  
+  thead{
+    background: #555555;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  td,th{
+    border:1px solid #000;
+    padding: 8px 15px;
+  }
+}
